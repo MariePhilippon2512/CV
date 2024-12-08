@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Curriculum Vitae | Marie Philippon - BTS SIO Option SIRS</title>
+    <title> Curriculum Vitae | Marie Philippon - BTS SIO Option SIRS </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
@@ -30,6 +30,10 @@
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
             margin-bottom: 10px;
         }
+        
+        .list-group-item:hover {
+            background-color: #f0f8ff;
+        }
         .progress-bar {
             background-color: #0066cc;
         }
@@ -41,7 +45,12 @@
         .icon {
             font-size: 1.5rem;
             margin-right: 10px;
-            color: #0066cc;
+            color: 
+            #0066cc;
+        }
+        
+        .btn-primary:hover {
+            background-color: #005bb5;
         }
     </style>
 </head>
@@ -52,7 +61,18 @@
             <h1>Marie Philippon</h1>
             <p><em>BTS SIO - Solutions d'Infrastructure, Systèmes et Réseaux</em></p>
         </header>
+      
+        <div class="text-center my-4">
+            <a href="CV_Marie_Philippon.pdf" class="btn btn-primary">
+                <i class="fas fa-download"></i> Télécharger le CV
+            </a>
+        </div>
 
+        <!-- À propos de moi -->
+        <section class="mt-4">
+            <h2 class="section-header">À propos de moi</h2>
+            <p>Étudiante en BTS SIO option SIRS, je suis passionnée par les systèmes et réseaux informatiques. Sérieuse et curieuse, je m'efforce de toujours apprendre et d’appliquer mes connaissances pour résoudre des problèmes techniques et contribuer à des projets professionnels.</p>
+        </section>
         <!-- Informations personnelles -->
         <section class="mt-4">
             <h2 class="section-header">Informations Personnelles</h2>
@@ -102,46 +122,41 @@
         </section>
 
      <!-- Langues et Centres d'intérêt -->
-<section class="mt-4">
-    <h2 class="section-header">Langues et Centres d'intérêt</h2>
-    <div class="row">
-        <!-- Langues -->
-        <div class="col-md-6 me-3">
-            <h3>Langues :</h3>
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <strong>Anglais :</strong>
-                    <div class="progress mt-2" style="height: 8px;">
-                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <small>Niveau : Débutant</small>
-                </li>
-                <li class="list-group-item">
-                    <strong>Espagnol :</strong>
-                    <div class="progress mt-2" style="height: 8px;">
-                        <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <small>Niveau : Débutant</small>
-                </li>
-            </ul>
+     <section class="mt-4">
+        <h2 class="section-header">Langues et Centres d'intérêt</h2>
+        <div class="row">
+            <!-- Langues -->
+            <div class="col-md-6">
+                <h3>Langues :</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <strong>Anglais :</strong> Niveau moyen<br>
+                        <small>Capable de lire des documents techniques et de tenir une conversation simple.</small>
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Espagnol :</strong> Niveau débutant<br>
+                        <small>Notions de base pour les conversations courantes.</small>
+                    </li>
+                </ul>
+            </div>
+            <!-- Centres d'intérêt -->
+            <div class="col-md-6">
+                <h3>Centres d'intérêt :</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <i class="fas fa-laptop icon"></i> Informatique
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-plane icon"></i> Voyages
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-users icon"></i> Moments en famille et amis
+                    </li>
+                </ul>
+            </div>
         </div>
-        <!-- Centres d'intérêt -->
-        <div class="col-md-5">
-            <h3>Centres d'intérêt :</h3>
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <i class="fas fa-laptop icon"></i> Informatique
-                </li>
-                <li class="list-group-item">
-                    <i class="fas fa-plane icon"></i> Voyages
-                </li>
-                <li class="list-group-item">
-                    <i class="fas fa-users icon"></i> Moments en famille et amis
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
+    </section>
+
 
 
 
