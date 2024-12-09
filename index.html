@@ -54,20 +54,38 @@
         .btn-primary:hover {
             background-color: #005bb5;
         }
+        .me-3 {
+             margin-right: 20px;
+        }
+        .mx-3 {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .ms-3 {
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container mt-5">
         <header>
-            <h1>Marie Philippon</h1>
-            <p><em>BTS SIO - Solutions d'Infrastructure, Systèmes et Réseaux</em></p>
+            <div class="d-flex align-items-center justify-content-between header-content">
+                <div class="me-3">
+                    <img src="image.jpg" alt="Photo de profil" class="rounded-circle" style="width: 100px; height: 100px;">
+                </div>
+
+                <div class="text-center flex-grow-1 mx-3">
+                    <h1>Marie Philippon</h1>
+                    <p><em>BTS SIO - Solutions d'Infrastructure, Systèmes et Réseaux</em></p>
+                </div>
+
+                <div class="ms-3">
+                    <a href="CV_Marie_Philippon.pdf" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Télécharger le CV
+                    </a>
+                </div>
+            </div>
         </header>
-      
-        <div class="text-center my-4">
-            <a href="CV_Marie_Philippon.pdf" class="btn btn-primary">
-                <i class="fas fa-download"></i> Télécharger le CV
-            </a>
-        </div>
 
 
         <section class="mt-4">
@@ -83,14 +101,6 @@
                 <li class="list-group-item"><strong>Téléphone :</strong> 07 82 ** ** **</li>
                 <li class="list-group-item"><strong>Email :</strong> marie.philippon@example.com</li>
             </ul>
-            <a href="chemin/vers/votre/cv.pdf" class="btn btn-primary" download>Télécharger le CV</a>
-        </ul>
-        <div class="text-center my-4">
-            <a href="CV_Marie_Philippon.pdf" class="btn btn-primary">
-                <i class="fas fa-download"></i> Télécharger le CV
-            </a>
-        </div>
-    </section>
 
         <section class="mt-4">
             <h2 class="section-header">Formation</h2>
